@@ -2,7 +2,7 @@ package Arrays;
 
 import java.util.Arrays; // Arrays
 
-public class Array {
+public class ArrayOne {
     public static void main(String[] args) {
         short x = 18; // short "x" = 18
         int y = 12; // int "y" = 12
