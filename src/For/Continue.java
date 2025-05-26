@@ -3,17 +3,20 @@ package For;
 public class Continue {
     public static void main(String[] args)
     {
-        int[] Weekday = {1,2,3,4,5,6,7}; // Days of the week, from Monday to Sunday
-        for (int result : Weekday) // We go through the days of the week and record them in the "result"
+        /*
+        We need to make it so that if the dice rolls the number "6" then the athlete will do push-ups,
+        if the number is not "6" then the athlete will do push-ups
+         */
+
+        int[] results = {3,4,1,6,3,5}; // Random numbers that fall out
+        for (int result : results) // Let's go through the numbers that have fallen out
         {
-            if (result == 6 || result == 7) // If the day of the week is 6 or 7, then we have a day off.
+            System.out.println(result + ":"); // Let's output the number
+            if (result == 6) // If we get the number "6" then we skip the iteration
             {
-                System.out.println(result + ": Weekend"); // We deduce that we have a day off today.
+                continue; // Skip the loop iteration
             }
-            else // Otherwise, we have a working day.
-            {
-                System.out.println(result + ": We are working"); // We are working on this day
-            }
+            System.out.println("The athlete does push-ups\n"); // If the number is not equal to "6" then we write that the athlete is doing push-ups
         }
     }
 }
