@@ -1,4 +1,4 @@
-package String;
+package StartJava.String;
 
 import java.util.Arrays;
 
@@ -43,7 +43,7 @@ public class StringMethod {
         String repeatedText = text.repeat(10);
         System.out.println("Text repeated 10 times: " + repeatedText);
 
-        // Split the text into a String array
+        // Split the text into a StartJava.String array
         System.out.println("_____namesArray____");
         String friendsNames = "Bogdan;Sasha;Maksim;Zakhar";
         System.out.println("friendsNames: " + friendsNames);
@@ -73,7 +73,7 @@ public class StringMethod {
         System.out.println("The original text: " + text);                    // output: Text: Hello world!
         System.out.println("Ends with \"world!\": " + endsWithWorld);  // output: endsWithWorld: true
 
-        // String truncation (first 5 characters)
+        // StartJava.String truncation (first 5 characters)
         System.out.println("_____firstFiveLetters____");
         String firstFiveLetters = text.substring(0,5); // We start with 0 characters and end with 5
         System.out.println("The original text: " + text);                    // output: Text: Hello world!

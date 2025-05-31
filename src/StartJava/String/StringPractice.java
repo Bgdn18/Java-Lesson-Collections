@@ -1,4 +1,4 @@
-package String;
+package StartJava.String;
 
 public class StringPractice {
     public static void main(String[] args)

@@ -1,4 +1,4 @@
-package String;
+package StartJava.String;
 
 public class StringClass {
     public static void main(String[] args) {
@@ -12,7 +12,7 @@ public class StringClass {
         System.out.println("== comparison result: " + (newString1 == newString2));
         System.out.println("equals() comparison result: " + newString1.equals(newString2));
 
-        System.out.println("\nWhen creating new String objects, even with identical content,\n"
+        System.out.println("\nWhen creating new StartJava.String objects, even with identical content,\n"
                 + "they reference different memory locations in the heap. The == operator\n"
                 + "compares references, while equals() compares content.");
 

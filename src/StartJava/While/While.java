@@ -1,4 +1,4 @@
-package While;
+package StartJava.While;
 
 public class While {
     public static void main(String[] args) {
@@ -9,6 +9,6 @@ public class While {
             count++; // Adds one to the "count"
             System.out.println(count); // Outputs count
         }
-        System.out.println("\nWhile ended"); // Message about the end of while
+        System.out.println("\nStartJava.While ended"); // Message about the end of while
     }
 }

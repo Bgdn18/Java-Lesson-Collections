@@ -1,4 +1,4 @@
-package For;
+package StartJava.For;
 
 public class ForEach {
     public static void main(String[] args) {

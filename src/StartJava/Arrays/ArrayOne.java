@@ -1,6 +1,6 @@
-package Arrays;
+package StartJava.Arrays;
 
-import java.util.Arrays; // Arrays
+import java.util.Arrays; // StartJava.Arrays
 
 public class ArrayOne {
     public static void main(String[] args) {

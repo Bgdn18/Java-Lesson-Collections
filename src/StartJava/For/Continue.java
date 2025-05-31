@@ -1,4 +1,4 @@
-package For;
+package StartJava.For;
 
 public class Continue {
     public static void main(String[] args)

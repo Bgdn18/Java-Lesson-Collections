@@ -1,4 +1,4 @@
-package While;
+package StartJava.While;
 
 public class WhileTrue {
     public static void main(String[] args) {

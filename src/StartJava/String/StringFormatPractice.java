@@ -1,4 +1,4 @@
-package String;
+package StartJava.String;
 
 public class StringFormatPractice {
     public static void main(String[] args) {
@@ -8,7 +8,7 @@ public class StringFormatPractice {
         boolean hasAutomaticTransmission = true;
 
         /*
-        Task: use String Format to compose a string:
+        Task: use StartJava.String Format to compose a string:
         Hello, I am the manager of [Brand Name] salon
         We have a model - [Model Name] for [Price]
         Does it have an automatic transmission?

@@ -1,4 +1,4 @@
-package While;
+package StartJava.While;
 
 public class DoWhile {
     public static void main(String[] args) {
@@ -13,7 +13,7 @@ public class DoWhile {
         while (count < 0); // FALSE, but if there were a number "100" here, for example, then we would have a cycle going up to one hundred
 
         // Below is the usual cycle
-        while (count < 0) // While a regular loop without "do" wouldn't even work
+        while (count < 0) // StartJava.While a regular loop without "do" wouldn't even work
         {
             System.out.println(count); // Will not display
         }
