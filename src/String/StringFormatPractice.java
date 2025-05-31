@@ -2,7 +2,7 @@ package String;
 
 public class StringFormatPractice {
     public static void main(String[] args) {
-        String carMark = "Audi";
+        String Mark = "Audi";
         String carModel = "Q3";
         double price = 15_000.00;
         boolean hasAutomaticTransmission = true;
@@ -21,7 +21,7 @@ public class StringFormatPractice {
                 We have a %s model for %f
                 -Does it have an automatic transmission?
                 %s
-                """.formatted(carMark, carModel, price, hasAutomaticTransmission ? "Yes" : "No");
+                """.formatted(Mark, carModel, price, hasAutomaticTransmission ? "Yes" : "No");
         System.out.println(result);
     }
 }
