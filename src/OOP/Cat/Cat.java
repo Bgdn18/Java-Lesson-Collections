@@ -12,6 +12,13 @@ public class Cat {
         System.out.printf("Destroy sofa %s!", ownerSofa); // print
     }
 
+    public String hunt(boolean isDay){
+        if (isDay) {
+            return "Mouse";
+        }
+        return "Bat";
+    }
+
     // Generate with alt + insert
     public Cat(String catName, String ownerName, String color, double weight) {
         this.catName = catName;
