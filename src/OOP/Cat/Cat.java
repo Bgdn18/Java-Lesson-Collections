@@ -1,5 +1,7 @@
 package OOP.Cat;
 
+import java.util.Arrays;
+
 public class Cat {
     String catName;
     String ownerName;
@@ -17,6 +19,10 @@ public class Cat {
             return "Mouse";
         }
         return "Bat";
+    }
+
+    public void feed(String ...food){
+        System.out.printf("Cat eats: %s", Arrays.toString(food));
     }
 
     // Generate with alt + insert

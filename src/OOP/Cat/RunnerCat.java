@@ -9,19 +9,19 @@ public class RunnerCat {
         System.out.println(cat);
 
         System.out.println("\n____________________________________________\n");
-
         System.out.println("Cat name: " + cat.catName);
         System.out.println("Cat owner: " + cat.ownerName);
         System.out.println("Cat color: " + cat.color);
         System.out.println("Cat weight: " + cat.weight);
 
         System.out.println("\n____________________________________________\n");
-
-        cat.destroySofa("Maksim");
+        cat.destroySofa("Maksim"); // output: Destroy sofa Maksim!
 
         System.out.println("\n____________________________________________\n");
+        String huntResult = cat.hunt(false); // Night
+        System.out.println(huntResult); // if Day != true -> Bat
 
-        String huntResult = cat.hunt(false);
-        System.out.println(huntResult);
+        System.out.println("\n____________________________________________\n");
+        cat.feed("Food1", "Food2", "Food3");
     }
 }
