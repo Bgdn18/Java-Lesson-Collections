@@ -4,12 +4,12 @@ public class carRunner {
     public static void main(String[] args) {
         System.out.println("_________________Initialization and getCountCars________________");
         Car audi = new Car("audi");
-        System.out.println(Car.getCountCars());
+        System.out.println("Count cars: " + Car.getCountCars());
         Car bmw = new Car("bmw");
-        System.out.println(Car.getCountCars());
+        System.out.println("Count cars: " + Car.getCountCars());
 
         System.out.println("_________________get brand________________");
-        System.out.println(bmw.getBrand());
-        System.out.println(audi.getBrand());
+        System.out.println("Bmw brand: " + bmw.getBRAND());
+        System.out.println("Audi brand: " + audi.getBRAND());
     }
 }
