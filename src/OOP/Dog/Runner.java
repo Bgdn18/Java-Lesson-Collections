@@ -1,6 +1,6 @@
 package OOP.Dog;
 
-public class dogRunner {
+public class Runner {
     public static void main(String[] args) {
         // Characteristics of the dog
         System.out.println("___________________newDog__________________");

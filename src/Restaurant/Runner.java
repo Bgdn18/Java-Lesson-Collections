@@ -1,6 +1,6 @@
 package Restaurant;
 
-public class taskRunner {
+public class Runner {
 
 // Create a network of restaurants that has a common, for all restaurants, stock of food: sausages, bread.
 // Each restaurant can serve a dish: then minus 1 sausage and two pieces of bread from the common stock.

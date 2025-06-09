@@ -1,6 +1,6 @@
 package OOP.Cat;
 
-public class catRunner {
+public class Runner {
     public static void main(String[] args)
     {
         System.out.println("\n____________________________________________\n");

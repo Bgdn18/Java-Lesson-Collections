@@ -1,6 +1,6 @@
 package OOP.Car;
 
-public class carRunner {
+public class Runner {
     public static void main(String[] args) {
         System.out.println("_________________Initialization and getCountCars________________");
         Car audi = new Car("audi");
