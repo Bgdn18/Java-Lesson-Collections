@@ -1,4 +1,4 @@
-package OOP.Inheritance;
+package OOP.Inheritance.Dog;
 
 public abstract class Alive {
 

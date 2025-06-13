@@ -4,7 +4,7 @@ public class Runner {
     public static void main(String[] args) {
         // Characteristics of the dog
         System.out.println("___________________newDog__________________");
-        Dog dog = new Dog("Rocky", -10, "Alex Carter");
+        Dog dog = new Dog("Rocky", -10, "Bogdan Khorolsky");
 
         /* The weight simply cannot be minus!
         Therefore, we set the average value to 5 */

@@ -1,4 +1,6 @@
-package OOP.Inheritance;
+package OOP.Inheritance.Dog.dogs;
+
+import OOP.Inheritance.Dog.Alive;
 
 public abstract class Dog extends Alive {
     /*
@@ -8,14 +10,25 @@ public abstract class Dog extends Alive {
      */
 
     public boolean isAngry;
+    public int countTeeth;
+    protected final byte countLegs = 4;
+
+    public Dog(int countTeeth) {
+        this.countTeeth = countTeeth;
+    }
+
+    public void bark() {
+        System.out.println("The dog barks");
+    }
+
+    public void beAngry(){
+        System.out.println("A dog barks at people");
+    }
+
     public abstract void run();
     /*
     ⬆️⬆️⬆️
     In this case, the heirs must implement "run",
     otherwise there will be an error
      */
-
-    public void bark() {
-        System.out.println("The dog barks");
-    }
 }
