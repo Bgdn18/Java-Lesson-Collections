@@ -1,8 +1,8 @@
-package OOP.Inheritance.Dog;
+package OOP.Polymorphism.Inheritance.Dog;
 
-import OOP.Inheritance.Dog.defend_dogs.Shepherd;
-import OOP.Inheritance.Dog.dogs.Poodle;
-import OOP.Inheritance.Dog.dogs.Terrier;
+import OOP.Polymorphism.Inheritance.Dog.defend_dogs.Shepherd;
+import OOP.Polymorphism.Inheritance.Dog.dogs.Poodle;
+import OOP.Polymorphism.Inheritance.Dog.dogs.Terrier;
 
 public class Runner {
     public static void main(String[] args) {

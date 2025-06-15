@@ -1,4 +1,4 @@
-package OOP.Inheritance.Task;
+package OOP.Polymorphism.Inheritance.Task;
 
 public abstract class Human {
     private boolean isMan;

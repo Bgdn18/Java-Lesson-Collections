@@ -1,4 +1,4 @@
-package OOP.Book;
+package OOP.basics.Book;
 
 public class Task {
     public static void main(String[] args) {

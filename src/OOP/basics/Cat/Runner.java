@@ -1,4 +1,4 @@
-package OOP.Cat;
+package OOP.basics.Cat;
 
 public class Runner {
     public static void main(String[] args)

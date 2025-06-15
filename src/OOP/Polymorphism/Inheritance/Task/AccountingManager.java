@@ -1,4 +1,4 @@
-package OOP.Inheritance.Task;
+package OOP.Polymorphism.Inheritance.Task;
 
 public class AccountingManager extends OfficeWorker {
     public AccountingManager(boolean isMan) {

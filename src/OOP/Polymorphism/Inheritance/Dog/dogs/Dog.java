@@ -1,6 +1,6 @@
-package OOP.Inheritance.Dog.dogs;
+package OOP.Polymorphism.Inheritance.Dog.dogs;
 
-import OOP.Inheritance.Dog.Alive;
+import OOP.Polymorphism.Inheritance.Dog.Alive;
 
 public abstract class Dog extends Alive {
     /*

@@ -1,4 +1,4 @@
-package OOP.Inheritance.Task;
+package OOP.Polymorphism.Inheritance.Task;
 
 public abstract class OfficeWorker extends Human {
     public OfficeWorker(boolean isMan) {

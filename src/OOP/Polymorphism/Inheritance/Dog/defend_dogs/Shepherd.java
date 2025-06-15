@@ -1,6 +1,6 @@
-package OOP.Inheritance.Dog.defend_dogs;
+package OOP.Polymorphism.Inheritance.Dog.defend_dogs;
 
-import OOP.Inheritance.Dog.dogs.Dog;
+import OOP.Polymorphism.Inheritance.Dog.dogs.Dog;
 
 public final class Shepherd extends Dog {
 

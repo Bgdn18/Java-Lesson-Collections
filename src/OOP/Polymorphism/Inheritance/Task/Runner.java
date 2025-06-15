@@ -1,6 +1,16 @@
-package OOP.Inheritance.Task;
+package OOP.Polymorphism.Inheritance.Task;
 
 public class Runner {
+
+    //We create professions in the enterprise
+    //A security guard is characterized by the ability to keep watch. Salary 15_000
+    //Accountant is characterized by the ability to calculate taxes. An accountant is an office worker. Salary 50_000
+    //The secretary is characterized by typing documents. A secretary is an office worker. Salary 30_000
+    //Every office worker knows how to drink coffee.
+    //Every person knows how to get a salary (characteristic for his profession).
+    //Every person has a gender.
+    //Create this structure in java.
+
     public static void main(String[] args) {
         Security security = new Security(true);
         AccountingManager accountingManager = new AccountingManager(false);

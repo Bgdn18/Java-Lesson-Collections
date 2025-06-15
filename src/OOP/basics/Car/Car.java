@@ -1,4 +1,4 @@
-package OOP.Car;
+package OOP.basics.Car;
 
 public class Car {
     private final String BRAND;

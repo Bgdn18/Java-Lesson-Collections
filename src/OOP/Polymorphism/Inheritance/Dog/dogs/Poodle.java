@@ -1,4 +1,4 @@
-package OOP.Inheritance.Dog.dogs;
+package OOP.Polymorphism.Inheritance.Dog.dogs;
 
 public class Poodle extends Dog {
 

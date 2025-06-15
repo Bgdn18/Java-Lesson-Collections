@@ -1,4 +1,4 @@
-package OOP.Dog;
+package OOP.basics.Dog;
 
 public class Runner {
     public static void main(String[] args) {

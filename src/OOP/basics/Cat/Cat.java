@@ -1,4 +1,4 @@
-package OOP.Cat;
+package OOP.basics.Cat;
 
 import java.util.Arrays;
 
