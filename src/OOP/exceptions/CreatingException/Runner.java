@@ -5,8 +5,7 @@ public class Runner {
         try {
             Car car = new Car(true);
             car.start();
-        }
-        catch (Exception e){
+        } catch (Exception e) {
             throw new RuntimeException(e);
         }
     }
