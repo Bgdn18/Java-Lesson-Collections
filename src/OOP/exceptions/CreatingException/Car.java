@@ -9,7 +9,7 @@ public class Car {
     }
 
     // Start with exception
-    public void start() throws Exception {
+    public void start() throws CarIsBrokenException {
         if (isBroken) {
             throw new CarIsBrokenException("The machine doesn't work");
         }
