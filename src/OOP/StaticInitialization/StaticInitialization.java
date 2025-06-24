@@ -1,4 +1,4 @@
-package StaticInitialization;
+package OOP.StaticInitialization;
 
 import java.util.Arrays;
 

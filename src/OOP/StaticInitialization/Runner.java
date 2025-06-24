@@ -1,4 +1,4 @@
-package StaticInitialization;
+package OOP.StaticInitialization;
 
 public class Runner {
     public static void main(String[] args) {

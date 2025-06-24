@@ -1,4 +1,4 @@
-package Restaurant;
+package OOP.Restaurant;
 
 public class Runner {
 
