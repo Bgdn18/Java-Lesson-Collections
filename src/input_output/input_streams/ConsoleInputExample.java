@@ -1,4 +1,4 @@
-package input_output;
+package input_output.input_streams;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package input_output;
+package input_output.input_streams;
 
 public class Calc {
     public long makeOperation(long number1, long number2, String operationType) {
