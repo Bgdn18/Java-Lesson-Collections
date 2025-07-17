@@ -1,13 +1,12 @@
 package input_output.TryWithResourcesExample;
 
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
 import java.nio.charset.StandardCharsets;
 import java.util.Scanner;
 
 public class TryWithResourcesExample {
-    public static void main(String[] args) throws FileNotFoundException {
+    public static void main(String[] args) throws IOException {
 
         String fileName = "textExample.txt"; // File name in resources folder
 
